@@ -1,6 +1,14 @@
 /* ********** FONT ************ */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root{
+    --nav-color: #2C1616;
+    --primary-web-color: #854AF6;
+    --secondary-web-color: #52C5FB;
+    --font-btn-color: #1C1C1F;
+    --footer-color: #161616;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -13,14 +21,17 @@
 body{
     width: 100dvw;
     height: 100dvh;
+    overflow-x: hidden;
 }
 
 .main-container{
-    max-width: 1300px;
-    margin: 0 auto;
+    max-width: 1200px;
     padding-left: 25px;
     padding-right: 25px;
+    margin: 0 auto;
 }
+
+/* ************ NAVBAR START ************* */
 
 nav{
     display: flex;
@@ -32,6 +43,24 @@ nav{
     top: 0;
 }
 
+nav .logo{
+    font-size: 22px;
+    color: var(--font-btn-color);
+    font-weight: 600;
+}
+
+nav .logo span{
+    color: var(--primary-web-color);
+    margin-right: 5px;
+    font-size: 22px;
+}
+
+nav .list-and-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 nav ul{
     display: flex;
     align-items: center;
@@ -40,16 +69,40 @@ nav ul{
 }
 
 nav ul li{
-    margin-left: 25px;
+    margin-right: 25px;
     cursor: pointer;
 }
 
-nav ul .ide-btn a{
+nav ul li a{
+    color: var(--nav-color);
+    transition: all 0.15s ease;
+}
+
+nav ul li a:hover{
+    color: var(--primary-web-color);
+}
+
+nav .list-and-btn .ide-btn{
     padding: 10px 32px;
     border: none;
     font-size: 16px;
-    background-color: blueviolet;
+    background-color: var(--primary-web-color);
+    font-weight: 500;
     border-radius: 5px;
     color: #fff;
     cursor: pointer;
 }
+
+nav .list-and-btn .ide-btn{
+    transition: all 0.5s ease;
+}
+
+nav .list-and-btn .ide-btn:hover{
+    background-color: #681df3;
+}
+
+nav .list-and-btn .ide-btn:active{
+    transform: scale(0.9);
+}
+
+/* ************ NAVBAR END ************* */
