@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 16px;
 }
 
 body{
@@ -10,3 +12,41 @@ body{
     height: 100dvh;
 }
 
+.main-container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 30px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+nav ul .ide-btn a{
+    padding: 10px 32px;
+    border: none;
+    font-size: 16px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
