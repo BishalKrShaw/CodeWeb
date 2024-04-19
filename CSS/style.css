@@ -33,14 +33,18 @@ body{
 
 /* ************ NAVBAR START ************* */
 
+#navbar{
+    padding-block: 25px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-block: 30px;
     background-color: #fff;
-    position: sticky;
-    top: 0;
 }
 
 nav .logo{
@@ -106,3 +110,11 @@ nav .list-and-btn .ide-btn:active{
 }
 
 /* ************ NAVBAR END ************* */
+
+/* ************* HERO SECTION START *************** */
+
+#hero{
+    background: linear-gradient(to bottom right, var(--primary-web-color), var(--secondary-web-color));
+}
+
+/* ************* HERO SECTION END *************** */
