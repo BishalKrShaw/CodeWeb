@@ -40,7 +40,6 @@ body{
 }
 
 /* ************ NAVBAR START ************* */
-
 #navbar{
     padding-block: 25px;
     background-color: #fff;
@@ -116,11 +115,9 @@ nav .list-and-btn .ide-btn:hover{
 nav .list-and-btn .ide-btn:active{
     transform: scale(0.9);
 }
-
 /* ************ NAVBAR END ************* */
 
 /* ************* HERO SECTION START *************** */
-
 #hero{
     background: linear-gradient(to bottom right, var(--primary-web-color), var(--secondary-web-color));
 }
@@ -161,6 +158,13 @@ nav .list-and-btn .ide-btn:active{
 
 .hero-div .hero-img-div img{
     width: 100%;
+    position: relative;
+    top: 2rem;
 }
-
 /* ************* HERO SECTION END *************** */
+
+/* *************** FEATURES SECTION START ************* */
+
+
+
+/* *************** FEATURES SECTION END *************** */
