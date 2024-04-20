@@ -19,6 +19,7 @@ body{
     height: 100vh;
     padding: 20px;
     display: flex;
+    margin-top: 150px;
 }
 
 .left, .right{

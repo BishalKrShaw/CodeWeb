@@ -5,6 +5,7 @@
     --nav-color: #2C1616;
     --primary-web-color: #854AF6;
     --secondary-web-color: #52C5FB;
+    --third-web-color: #F75C6A;
     --font-btn-color: #1C1C1F;
     --footer-color: #161616;
     --secondary-font-color: #DADEF7;
@@ -43,9 +44,11 @@ body{
 #navbar{
     padding-block: 25px;
     background-color: #fff;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 9;
+    width: 100%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
 }
 
 nav{
@@ -121,6 +124,7 @@ nav .list-and-btn .ide-btn:active{
 /* ************* HERO SECTION START *************** */
 #hero{
     background: linear-gradient(to bottom right, var(--primary-web-color), var(--secondary-web-color));
+    padding-block: 50px;
 }
 
 .hero-div .hero-info-div h1{
@@ -136,6 +140,12 @@ nav .list-and-btn .ide-btn:active{
     font-size: 17px;
     font-weight: 500;
     width: 500px;
+}
+
+.hero-div .hero-info-div p span{
+    color: #fff;
+    font-weight: 700;
+    font-style: italic;
 }
 
 .hero-div .hero-info-div a{
@@ -177,8 +187,9 @@ nav .list-and-btn .ide-btn:active{
 }
 
 #features .features-div p{
-    width: 850px;
+    width: 920px;
     margin: 0 auto 50px;
+    color: var(--font-btn-color);
 }
 
 #features .features-div .row .col .feature-img-div{
@@ -203,6 +214,40 @@ nav .list-and-btn .ide-btn:active{
 
 
 /* ************* ABOUT SECTION START ************** */
+#about{
+    background: linear-gradient(to bottom right, var(--primary-web-color), var(--third-web-color));
+    padding-block: 80px;
+}
+
+#about .about-section .col h2{
+    font-size: 50px;
+    color: #fff;
+}
+
+#about .about-section>.col p{
+    color: var(--secondary-font-color);
+    width: 500px;
+}
+
+#about .about-section>.col p>span{
+    color: #fff;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#about .about-section .about-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: var(--font-btn-color);
+    margin-inline: 80px;
+}
+
+#about .about-section .about-img img{
+    width: 100%;
+    height: 100%;
+}
 /* ************* ABOUT SECTION END ************** */
 
 
