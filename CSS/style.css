@@ -20,6 +20,10 @@
     font-size: 16px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     width: 100dvw;
     height: 100dvh;
@@ -106,9 +110,6 @@ nav .list-and-btn .ide-btn{
     border-radius: 5px;
     color: #fff;
     cursor: pointer;
-}
-
-nav .list-and-btn .ide-btn{
     transition: all 0.5s ease;
 }
 
@@ -308,4 +309,63 @@ nav .list-and-btn .ide-btn:active{
 
 
 /* ************* FOOTER START ************** */
+footer{
+    background-color: var(--footer-color);
+    padding-block: 80px;
+    text-align: center;
+    color: #fff;
+}
+
+footer .footer-section h2{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+footer .footer-section h2 span{
+    font-size: 22px;
+    color: var(--primary-web-color);
+}
+
+footer .footer-section p{
+    width: 800px;
+    margin: 0 auto 50px;
+    color: #B4B4BA;
+    font-size: 15px;
+}
+
+footer .footer-section a{
+    display: block;
+    width: 400px;
+    margin: 0 auto 80px;
+    padding: 10px 32px;
+    border: none;
+    font-size: 16px;
+    background-color: var(--primary-web-color);
+    font-weight: 500;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+footer .footer-section a:hover{
+    background-color: #681df3;
+}
+
+footer .footer-section a:active{
+    transform: scale(0.9);
+}
+
+footer .footer-section hr{
+    height: 1px;
+    border: none;
+    background-color: #494949;
+    margin-bottom: 50px;
+}
+
+footer .footer-section hr + p{
+    font-size: 13px;
+    color: #7a7a7a;
+}
 /* ************* FOOTER END ************** */
