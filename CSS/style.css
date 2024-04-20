@@ -35,8 +35,8 @@ body{
 .row{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-basis: 50%;
+    justify-content: center;
+    /* flex-basis: 50%; */
 }
 
 /* ************ NAVBAR START ************* */
@@ -45,6 +45,7 @@ body{
     background-color: #fff;
     position: sticky;
     top: 0;
+    z-index: 9;
 }
 
 nav{
@@ -134,6 +135,7 @@ nav .list-and-btn .ide-btn:active{
     margin-bottom: 40px;
     font-size: 17px;
     font-weight: 500;
+    width: 500px;
 }
 
 .hero-div .hero-info-div a{
@@ -153,7 +155,7 @@ nav .list-and-btn .ide-btn:active{
 }
 
 .hero-div .hero-img-div{
-    width: 1800px;
+    width: 600px;
 }
 
 .hero-div .hero-img-div img{
@@ -164,7 +166,49 @@ nav .list-and-btn .ide-btn:active{
 /* ************* HERO SECTION END *************** */
 
 /* *************** FEATURES SECTION START ************* */
+#features{
+    text-align: center;
+    padding-block: 80px;
+}
 
+#features .features-div h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
 
+#features .features-div p{
+    width: 850px;
+    margin: 0 auto 50px;
+}
 
+#features .features-div .row .col .feature-img-div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-inline: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+#features .features-div .row .col .feature-img-div:hover{
+    transform: scale(1.2);
+}
+
+#features .features-div .row .col .feature-img-div img{
+    width: 100%;
+    height: 100%;
+}
 /* *************** FEATURES SECTION END *************** */
+
+
+/* ************* ABOUT SECTION START ************** */
+/* ************* ABOUT SECTION END ************** */
+
+
+/* ************** TESTIMONIAL SECTION START ************ */
+/* ************** TESTIMONIAL SECTION END ************ */
+
+
+/* ************* FOOTER START ************** */
+/* ************* FOOTER END ************** */
