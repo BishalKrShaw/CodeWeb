@@ -252,6 +252,9 @@ nav .list-and-btn .ide-btn:active{
 
 
 /* ************** TESTIMONIAL SECTION START ************ */
+#testimonials{
+    padding-block: 80px;
+}
 /* ************** TESTIMONIAL SECTION END ************ */
 
 
